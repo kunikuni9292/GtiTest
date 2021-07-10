@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
     
-    @IBOutlet weak var atacklable: UILabel!
     // APIのURL
     let url = URL(string: "https://5xqq8vderh.execute-api.ap-northeast-1.amazonaws.com/Prod/practice")!
     var list = [Item]()
@@ -56,7 +55,6 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         let cell = tableView.dequeueReusableCell(withIdentifier: "item", for: indexPath)
         cell.textLabel?.text = list[indexPath.row].getname()
         cell.detailTextLabel?.text = list[indexPath.row].getatack()
-        self.atacklable?.text = list[indexPath.row].getname()
         return cell
     }
     

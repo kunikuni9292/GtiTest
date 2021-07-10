@@ -50,13 +50,6 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="mcp-h0-fqv"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XHL-oZ-ya4">
-                                <rect key="frame" x="80" y="134" width="23" height="14"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -68,7 +61,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="atacklable" destination="XHL-oZ-ya4" id="Nsg-rr-rpd"/>
                         <outlet property="tableView" destination="s58-1B-XOp" id="u0o-u2-Jo7"/>
                     </connections>
                 </viewController>
